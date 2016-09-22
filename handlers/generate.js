@@ -1,3 +1,6 @@
+const uuid = require('uuid');
+
 exports.index = (request, reply) => {
-		reply.file('./views/generate.html');
+	const couponCode = uuid.v1();
+	reply.view('generate.html', {cc: transaction.couponCode});
 };

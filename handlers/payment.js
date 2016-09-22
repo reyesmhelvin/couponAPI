@@ -1,3 +1,3 @@
 exports.index = (request, reply) => {
-		reply.file('./views/payment.html');
+	reply.file('./views/payment.html');
 };
