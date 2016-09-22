@@ -10,8 +10,11 @@
   "author": "Mhelvin Reyes",
   "license": "ISC",
   "dependencies": {
+    "handlebars": "^4.0.5",
     "hapi": "^15.0.3",
     "inert": "^4.0.2",
-    "mongojs": "^2.4.0"
+    "mongojs": "^2.4.0",
+    "uuid": "^2.0.3",
+    "vision": "^4.1.0"
   }
 }
