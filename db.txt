@@ -1,0 +1,25 @@
+// insert dummy data in mongodb
+
+db.transactions.insertMany( [
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" },
+      { stat: true, coupon_id: "" }
+   ]);
+
+// not necessary to insert
+db.coupons.insertMany( [
+      { code: "" },
+      { code: "" },
+      { code: "" }
+   ]);

@@ -1,0 +1,17 @@
+{
+  "name": "coupon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mhelvin Reyes",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^15.0.3",
+    "inert": "^4.0.2",
+    "mongojs": "^2.4.0"
+  }
+}
