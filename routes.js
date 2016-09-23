@@ -6,9 +6,9 @@ module.exports = [{
     path: '/transaction',
 	method: 'GET',
 	handler: Transaction.index
-}, {
+},{
     path: '/api/generate',
-	method: 'GET',
+	method: ['GET', 'POST'],
 	handler: Generate.index
 }, {
    path: '/payment',

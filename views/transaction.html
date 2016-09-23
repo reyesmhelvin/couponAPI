@@ -20,7 +20,10 @@
 
 	<div class="row">
 		<div class="col s12 center-align">
-			<a href="/api/generate" class="waves-effect waves-light btn-large">Generate Payment Code</a>
+      <form method="post" action="/api/generate">
+         <input type="hidden" name="transId" value={{id._id}}>
+         <button class="btn waves-effect waves-light" type="submit">Generate Payment Code</button>
+      </form>
 		</div>
 	</div>
 </div>
