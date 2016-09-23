@@ -4,7 +4,6 @@ const Path = require('path');
 const inert = require('inert');
 const vision = require('vision');
 
-
 server.connection({
 	host: 'localhost',
 	port: 3000

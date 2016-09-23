@@ -11,14 +11,13 @@
 <div class="container">
   <h2 class="header">Enter coupon code</h2>
   <div class="row">
-    <div class="input-field col s12">
-      <input placeholder="Coupon code" id="couponcode" type="text" class="validate">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 right-align">
-      <a href="#" class="waves-effect waves-light btn-large">Pay using this coupon</a>
-    </div>
+    <form method="post" action="/success">
+      <div class="input-field col s12">
+        <input placeholder="Coupon code" id="couponcode" type="text" name="couponCode" class="validate" value={{cc}}>
+        <input type="hidden" name="transId" value={{transId}}>
+      </div>
+      <button class="btn waves-effect waves-light" type="submit">Pay using this coupon</button>
+    </form>
   </div>
 </div>
 	

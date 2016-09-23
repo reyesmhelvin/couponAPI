@@ -19,7 +19,7 @@ db.transactions.insertMany( [
 
 // not necessary to insert
 db.coupons.insertMany( [
-      { code: "" },
-      { code: "" },
-      { code: "" }
+      { code: "" , used: false},
+      { code: "" , used: false},
+      { code: "" , used: false}
    ]);

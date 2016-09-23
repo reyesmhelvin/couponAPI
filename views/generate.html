@@ -19,7 +19,11 @@
             <span id="couponFont">{{cc}}</span>
           </div>
           <div class="card-action">
-            <a href="/payment">Click me to pay using this coupon</a>
+          <form method="post" action="/payment">
+             <input type="hidden" name="couponCode" value={{cc}}>
+             <input type="hidden" name="transId" value={{id}}>
+             <button class="btn waves-effect waves-light" type="submit">Click me to pay using this coupon</button>
+          </form>
           </div>
         </div>
       </div>

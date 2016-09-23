@@ -6,9 +6,11 @@ exports.index = (request, reply) => {
 		if (err) {
             return reply('Internal MongoDB error');
         }
+
         const randomizer = Math.floor(Math.random()*docs.length)
 		const randomID = docs[randomizer];
-		return reply.view('transaction.html', { id: randomID });
+
+		reply.view('transaction.html', { id: randomID });
 	});
 	
 };

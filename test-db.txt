@@ -1,0 +1,14 @@
+transactions
+{
+    "_id" : ObjectId("57e52d0903854e6e52dc4adf"),
+    "stat" : false,
+    "coupon_id" : ObjectId("57e52d4adb7aa719b4f0d6ac")
+}
+
+coupons
+{
+    "_id" : ObjectId("57e52d4adb7aa719b4f0d6ac"),
+    "code" : "31fd8c80-8191-11e6-afa5-7fb682f179c4",
+    "used" : true
+}
+

@@ -1,4 +1,8 @@
-#couponFont{
+#couponFont {
 	font-size: 3em;
 	color: yellow;
+}
+.card-image {
+	width: 100%;
+	height: 30%;
 }
